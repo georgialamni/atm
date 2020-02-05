@@ -10,12 +10,11 @@ public class AtmInformationReader {
     private Scanner s;
     AtmInformationReader newATM = new AtmInformationReader();
 
-    public AtmInformationReader()
-    {
+    public AtmInformationReader() {
         s = new Scanner(System.in);
     }
 
-    public void menu(){
+    public void menu() {
 
         System.out.println("Welcome to the bank");
         System.out.println("Choose one of the following options: ");
@@ -26,7 +25,7 @@ public class AtmInformationReader {
         System.out.println("5 - Exit");
     }
 
-    public void verifyCustomer(){
+    public void verifyCustomer() {
 
         Account customer1 = new Account(999, "Georgia", 100.25, 9999);
         Bank theBank = new Bank();
@@ -35,16 +34,13 @@ public class AtmInformationReader {
         System.out.println("Enter Account Number: ");
         String accountNumber;
         accountNumber = s.nextLine();
-        System.out.println("Enter passcode");
+        System.out.println("Enter password");
         String password;
         password = s.nextLine();
 
-        if (accountNumber.equals(customer1.getAccountNumber()) && password.equals(customer1.getPassword()))
-        {
+        if (accountNumber.equals(customer1.getAccountNumber()) && password.equals(customer1.getPassword())) {
             menu();
-            run();
-        }
-        else {
+        } else {
             System.out.println("ERROR: Either account number or passcode is not correct.");
         }
     }
