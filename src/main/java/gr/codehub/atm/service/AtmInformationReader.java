@@ -1,7 +1,8 @@
-package gr.codehub.atm.repository;
+package gr.codehub.atm.service;
 
 import gr.codehub.atm.model.Account;
 import gr.codehub.atm.model.Bank;
+import gr.codehub.atm.repository.Banks;
 
 import java.util.Scanner;
 
@@ -19,7 +20,7 @@ public class AtmInformationReader {
     public void verifyCustomer() {
 
         Account customer1 = new Account("7678", "Georgia", 100.25, 9999);
-        Bank theBank = new Bank();
+        Banks theBank = new Banks();
         theBank.createAccount(customer1);
 
         System.out.println("Enter Account Number: ");

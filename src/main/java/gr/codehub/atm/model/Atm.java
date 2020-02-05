@@ -11,9 +11,4 @@ public class Atm {
 
     private String location;
     private Card insertedCard;
-
-    public boolean insert(Card card){
-        this.insertedCard = card;
-        return true;
-    }
 }

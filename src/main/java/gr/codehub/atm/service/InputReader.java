@@ -1,4 +1,4 @@
-package gr.codehub.atm.repository;
+package gr.codehub.atm.service;
 
 import java.util.Scanner;
 

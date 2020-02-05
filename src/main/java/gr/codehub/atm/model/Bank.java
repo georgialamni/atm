@@ -13,10 +13,4 @@ public class Bank {
     private Atm atm;
     private List<Account> accounts;
 
-    public Bank() {
-        accounts = new ArrayList<>();
-    }
-
-    public void createAccount(Account customer1) {
-    }
 }
