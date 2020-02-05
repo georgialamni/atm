@@ -1,7 +1,5 @@
 package gr.codehub.atm.repository;
 
-import gr.codehub.atm.model.Account;
-
 public class AccountBalance {
 
     private double balance;

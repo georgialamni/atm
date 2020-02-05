@@ -14,18 +14,10 @@ public class BankCustomer {
     private String accountNumber;
     private String password;
 
-    public String getFirstName() {
-        return firstName;
-    }
-
     public void setFirstName(String firstName) {
         if (firstName != null) {
             this.firstName = firstName;
         }
-    }
-
-    public String getLastName() {
-        return lastName;
     }
 
     public void setLastName(String lastName) {
@@ -34,18 +26,10 @@ public class BankCustomer {
         }
     }
 
-    public String getAccountNumber() {
-        return accountNumber;
-    }
-
     public void setAccountNumber(String accountNumber) {
         if (accountNumber != null) {
             this.accountNumber = accountNumber;
         }
-    }
-
-    public String getPassword() {
-        return password;
     }
 
     public void setPassword(String password) {
