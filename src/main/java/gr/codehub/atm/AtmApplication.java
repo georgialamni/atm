@@ -7,7 +7,7 @@ public class AtmApplication {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String userAnswer="";
-		while(!userAnswer.equals("5")){
+		while(!userAnswer.equals("4")){
 			menu();
 			userAnswer = sc.nextLine();
 		}

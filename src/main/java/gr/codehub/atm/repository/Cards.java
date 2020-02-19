@@ -12,4 +12,8 @@ public class Cards {
     public Cards(){
         cards = new ArrayList<>();
     }
+
+    public void addCard(Card c){
+        cards.add(c);
+    }
 }
